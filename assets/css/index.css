@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&family=Roboto+Slab&display=swap');
+
+
+html{
+    background-color: black;
+    color: white;
+}
+
+.nav-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+    margin: 0 10%;
+    align-items: center;
+    justify-content: center;
+    font-family: Geologica;
+    color: #f3cd74;
+}
+
+.nav-container a{
+    text-decoration: none;
+    color: white;
+}
+
+#nav-logo{
+    grid-column: span 7;
+}
+
+#nav-home{
+    grid-column-start: 8;
+    grid-column-end: 9;
+}
+
+#nav-about{
+    grid-column-start: 9;
+    grid-column-end: 10;
+}
+
+#nav-projects{
+    grid-column-start: 10;
+    grid-column-end: 11;
+}
+
+#nav-contact{
+    grid-column-start: 11;
+    grid-column-end: 12;
+}
+
+.hero-container{
+    display: flex;
+    margin: 0 10%;
+    font-family: Geologica;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#hero-text{
+    flex: 1;
+    font-size: 2rem;
+    font-family: "Roboto Slab";
+    position: relative;
+    bottom: 50px;
+}
+
+#hero-text h1{
+    color: #f3cd74;
+    margin: 0;
+}
+
+#hero-subhead p{
+    margin: 0;
+}
+
+#hero-img{
+    flex: 1;
+}
+
+#hero-img img{
+    width: 100%;
+    height: 100%;
+}
