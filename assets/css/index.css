@@ -1,50 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&family=Roboto+Slab&display=swap');
 
 
-html{
+body{
     background-color: black;
     color: white;
 }
 
 .nav-container{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 30px;
+    display: flex;
     margin: 0 10%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     font-family: Geologica;
     color: #f3cd74;
 }
 
-.nav-container a{
+#nav-logo{
+    cursor: default;
+}
+
+#nav-links li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 4vw;
+}
+
+#nav-links a{
     text-decoration: none;
     color: white;
 }
 
-#nav-logo{
-    grid-column: span 8;
+#nav-links a:hover{
+    text-decoration: underline;
 }
 
-#nav-home{
-    grid-column-start: 9;
-    grid-column-end: 10;
-}
-
-#nav-about{
-    grid-column-start: 10;
-    grid-column-end: 11;
-}
-
-#nav-projects{
-    grid-column-start: 11;
-    grid-column-end: 12;
-}
-
-#nav-contact{
-    grid-column-start: 12;
-    grid-column-end: 13;
-}
 
 .hero-container{
     display: flex;
@@ -58,7 +47,6 @@ html{
 #hero-text{
     flex: 1;
     font-size: 2rem;
-    font-family: "Roboto Slab";
     position: relative;
     bottom: 50px;
 }
@@ -69,7 +57,12 @@ html{
 }
 
 #hero-subhead p{
+    font-family: "Roboto Slab";
     margin: 0;
+}
+
+#hero-subhead span{
+    text-decoration: underline;
 }
 
 #hero-img{
