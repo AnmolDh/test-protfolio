@@ -23,27 +23,27 @@ html{
 }
 
 #nav-logo{
-    grid-column: span 7;
+    grid-column: span 8;
 }
 
 #nav-home{
-    grid-column-start: 8;
-    grid-column-end: 9;
-}
-
-#nav-about{
     grid-column-start: 9;
     grid-column-end: 10;
 }
 
-#nav-projects{
+#nav-about{
     grid-column-start: 10;
     grid-column-end: 11;
 }
 
-#nav-contact{
+#nav-projects{
     grid-column-start: 11;
     grid-column-end: 12;
+}
+
+#nav-contact{
+    grid-column-start: 12;
+    grid-column-end: 13;
 }
 
 .hero-container{
