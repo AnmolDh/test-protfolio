@@ -31,7 +31,8 @@ body{
 }
 
 #nav-links a:hover{
-    text-decoration: underline;
+    transition: 100ms ease-in;
+    color: #f3cd74;
 }
 
 
@@ -41,17 +42,18 @@ body{
     font-family: Geologica;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 90vh;
 }
 
-#hero-text{
+#hero-head{
     flex: 1;
     font-size: 2rem;
     position: relative;
     bottom: 50px;
+    cursor: default;
 }
 
-#hero-text h1{
+#hero-head h1{
     color: #f3cd74;
     margin: 0;
 }
@@ -72,4 +74,24 @@ body{
 #hero-img img{
     width: 100%;
     height: 100%;
+}
+
+.summ-container{
+    margin: 0 10%;
+    color: #f3cd74;
+    font-family: Geologica;
+    font-size: 1.5rem;
+    height: 90vh;
+}
+
+.summ-container h1{
+    margin: 10% 0 0 0;
+    padding: 0;
+}
+
+#summ-text{
+    color: white;
+    font-family: "Roboto Slab";
+    text-align: left;
+    font-size: 1.4rem;
 }
