@@ -97,3 +97,8 @@ body{
     text-align: left;
     font-size: 1.4rem;
 }
+
+footer{
+    text-align: center;
+    font-size: smaller;
+}
